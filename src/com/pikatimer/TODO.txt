@@ -1,21 +1,12 @@
-TODO for 1.5.1 Release
+TODO for 1.5.2 Release
 
 Bugs / tweaks:
-DONE: Fix bulk bib assignment bug
-DONE: JOEY vs Joey discovery issue
-DONE: Center display on screen
-DONE: Update "start" and "end" wording on timing tab to make it easier to understand
-DONE: Update to DataTables 1.10.18+
-DONE: BUG: Backup at finish line ignored? Verify backup handling at other locations (start, splits, etc)
-DONE: BUG: Deal with utf-8 w/ BOM on participant import files (1st column is being ignored due to BOM char)
-DONE: Filter non numeric items in bulk bib assignment text area
-DONE: BUG: 1st read after the start is ignored. 
-DONE: FTPS support for servers that don't like Java's TLS
-DONE: Ability to specify a non-standard port on the SFTP (SCP) host via hostname.com:port syntax
-DONE: For FTPS, try a rename rather than a delete/rename. Fall back to a delete/rename if the server won't overwrite the target file
-DONE: BUG: Required Splits during an in-progress race shows no finishers
+DONE: Custom Awards category StringProperty issue
+DONE: birthdate parsing order issue
+DONE: Awards in CSV output (for each award, award_category, award_place)
+DONE: Award structure in JSON with discrete items (award, category, place)
+DONE: Custom Attributes with spaces mess up json/javascript parsing
 
-Figure out report html vs text header editing oddity -- Unable to reproduce in a test env
 
 
 FUTURE: 
